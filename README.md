@@ -41,7 +41,7 @@ The model was evaluated using real backtests and future forecast components:
 
 ---
 
-## 🧠 Methodology Summary
+## Methodology Summary
 
 ### Step 1: Modeling Run Scoring Ability
 - Built a **custom weighted average model** using:
