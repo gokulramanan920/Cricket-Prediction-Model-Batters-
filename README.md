@@ -66,6 +66,9 @@ The model was evaluated using real backtests and future forecast components:
 Live Demo (Coming Soon)
 Will be hosted on Streamlit Cloud / Heroku / PythonAnywhere soon.
 
+Medium Article (Coming Soon)
+Will fully analyze both dashboards, my methodology for my ML prediction model, my overall work, and future work as well. Stay Tuned!
+
 Contact Info
 - Email: gokulramanan@northeastern.edu
 - LinkedIn: https://www.linkedin.com/in/gokul-ramanan-83494825b/
