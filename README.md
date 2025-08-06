@@ -40,3 +40,33 @@ The model was evaluated using real backtests and future forecast components:
 > Full chart and evaluation results included in `model_metrics_comparison.png` and `back_test.py`.
 
 ---
+
+## 🧠 Methodology Summary
+
+### Step 1: Modeling Run Scoring Ability
+- Built a **custom weighted average model** using:
+  - Recent Form
+  - Career Average
+  - Trajectory Average (based on where they are in career)
+- Found weights that outperformed XGBoost in multiple time splits.
+
+### Step 2: Match Prediction
+- Used ICC FTP + historical match data to train an XGBoost model to predict total matches per country until 2030.
+
+### Step 3: Innings Prediction
+- Modeled based on match totals and historical innings/match patterns.
+- Achieved **R² = 0.990** and **MAPE = 0.029** in backtests.
+
+### Step 4: Final Projection
+- `Projected Runs = Predicted Innings × Predicted Batting Average`
+- Predictions added as the 2030 datapoint with a special marker on the dashboard.
+
+---
+
+Live Demo (Coming Soon)
+Will be hosted on Streamlit Cloud / Heroku / PythonAnywhere soon.
+
+Contact Info
+Email: gokulramanan@northeastern.edu
+LinkedIn: https://www.linkedin.com/in/gokul-ramanan-83494825b/
+Instagram: https://www.instagram.com/gokulramanan_20/
