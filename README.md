@@ -21,7 +21,7 @@ This project combines **interactive dashboards**, **machine learning forecasting
 | **Real-World Schedule Integration** | Used ICC FTP + historical data to forecast match counts |
 | **Full Pipeline** | Predicted Matches → Innings → Runs |
 | **Predicted Career Endpoints** | Future projections shown as distinct diamond markers |
-| 🖼**Career Alignment Feature** | Aligns all players’ careers to start at Year 0 for trajectory comparison |
+| **Career Alignment Feature** | Aligns all players’ careers to start at Year 0 for trajectory comparison |
 | **Custom Backend API** | Dynamically filters data for dashboards |
 | **All-Format Toggle** | Focus on players across Tests, ODIs, and T20Is |
 
