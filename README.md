@@ -67,6 +67,6 @@ Live Demo (Coming Soon)
 Will be hosted on Streamlit Cloud / Heroku / PythonAnywhere soon.
 
 Contact Info
-Email: gokulramanan@northeastern.edu
-LinkedIn: https://www.linkedin.com/in/gokul-ramanan-83494825b/
-Instagram: https://www.instagram.com/gokulramanan_20/
+- Email: gokulramanan@northeastern.edu
+- LinkedIn: https://www.linkedin.com/in/gokul-ramanan-83494825b/
+- Instagram: https://www.instagram.com/gokulramanan_20/
