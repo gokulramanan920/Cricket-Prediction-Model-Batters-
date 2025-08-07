@@ -1,8 +1,8 @@
 """
 Gokul Ramanan
 panel_creation.py
-5/26/2025
-Description: Creates the panel dashboard of the top 15
+8/6/2025
+Description: Creates the panel dashboard of the top 85
 international run scorers for cricket.
 """
 import pandas as pd

@@ -1,3 +1,17 @@
+"""
+Gokul Ramanan
+back_test.py
+8/6/2025
+Description: Creates a hybrid prediction model which uses a data pipeline
+to estimate future run totals for international cricket batters.
+The pipeline combines historical performance data, career trajectory patterns,
+and country match forecasts to generate individual player predictions. It includes
+a custom-weighted average method alongside XGBoost-based machine learning models
+for predicting future batting averages and innings played. The script also performs
+multi-metric backtesting (R², MAPE, SMAPE) against the top 85 historical batters to
+evaluate model accuracy and robustness over multi-decade trends.
+"""
+
 import pandas as pd
 import numpy as np
 from sklearn.metrics import mean_absolute_error, r2_score

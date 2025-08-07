@@ -1,8 +1,8 @@
 """
-Gokul Ramanan and Ahmad Shaikh
+Gokul Ramanan
 runs_api.py
-5/26/2025
-Description: RUNS API for extracting data from the Top_15_International_Run_Scorers.csv
+8/6/2025
+Description: RUNS API for extracting data from the Top_85_International_Run_Scorers.csv
 file based on various selection parameters.
 """
 

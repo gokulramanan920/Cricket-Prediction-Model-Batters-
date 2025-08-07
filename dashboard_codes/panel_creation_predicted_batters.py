@@ -1,9 +1,10 @@
 """
-Gokul Ramanan and Ahmad Shaikh
-panel_creation.py
-5/26/2025
-Description: Creates the panel dashboard of the top 15
-international run scorers for cricket.
+Gokul Ramanan
+panel_creation_predictions.py
+8/6/2025
+Description: Creates a panel dashboard to predict the number of runs some
+of the top young cricketers will score in 5 years for a specific format. Minimum
+Criteria for the prediction is 5 years of international experience in the format.
 """
 
 import panel as pn
