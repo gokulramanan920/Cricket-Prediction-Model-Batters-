@@ -14,37 +14,6 @@ import plotly.colors as pc
 from statsmodels.nonparametric.smoothers_lowess import lowess
 import pandas as pd
 
-df_one = pd.read_csv("prediction_players.csv")
-df_two = pd.read_csv("prediction.csv")
-
-df_pred_insert = pd.DataFrame({
-    "Year": 2030,
-    "Country": df_two["Country"],
-    "Name": df_two["Name"],
-    "Format": df_two["Format"],
-    "Mat": round(df_two["Pred_Innings"] / df_two["Inns/Match"], 0),
-    "Inns": df_two["Pred_Innings"].round(0).astype(int),
-    "NO": 0,  # Assuming none are not-outs for simplicity
-    "Runs": df_two["Predicted_Runs"].round(1),
-    "HS": None,
-    "Avg": df_two["Final_Runs_Per_Inning"].round(2),
-    "BF": None,
-    "SR": None,
-    "100s": 0,
-    "50s": 0,
-    "0s": 0,
-    "4s": 0,
-    "6s": 0
-})
-
-# Concatenate the new rows to the original df_one
-df_combined = pd.concat([df_one, df_pred_insert], ignore_index=True)
-df_combined["Is_Prediction"] = df_combined["Year"] == 2030
-
-df_combined.to_csv("add_preds.csv", index = False)
-
-print(df_combined)
-
 # Loads javascript dependencies and configures Panel (required)
 pn.extension()
 
