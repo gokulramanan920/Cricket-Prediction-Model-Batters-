@@ -64,8 +64,8 @@ The model was evaluated using real backtests and future forecast components:
 ---
 
 Interactive Dashboard Links (HuggingFace)
-ML Career Prediction: https://huggingface.co/spaces/GokulRamanan/gokul-ml-prediction-runs-dashboard
-Top 85 Batters Progression: https://huggingface.co/spaces/GokulRamanan/top-85-international-cricket-batters-run-progression
+- ML Career Prediction: https://huggingface.co/spaces/GokulRamanan/gokul-ml-prediction-runs-dashboard
+- Top 85 Batters Progression: https://huggingface.co/spaces/GokulRamanan/top-85-international-cricket-batters-run-progression
 
 Medium Article (Coming Soon)
 Will fully analyze both dashboards, my methodology for my ML prediction model, my overall work, and future work as well. Stay Tuned!
