@@ -7,7 +7,7 @@ Rising Sophomore @ Northeastern University | Data Science & Mathematics Major
 
 ## Project Overview
 
-This project combines **interactive dashboards**, **machine learning forecasting**, and **real-world domain knowledge** to analyze and predict the cumulative international run-scoring trajectories of the top 85 batters in cricket history. The model also forecasts where the next generation of elite players will end up by **mid-2030**, with highly accurate projections based on their career phase, recent performance, and country schedules.
+This project combines **interactive dashboards**, **machine learning forecasting**, and **real-world domain knowledge** to analyze and predict the cumulative international run-scoring trajectories of the top current cricket batters. The model forecasts where these next generation of elite players will end up by **mid-2030**, with highly accurate projections based on their career phase, recent performance, country schedules, and the top 85 cricket batters' career trajectories. The project includes interactive dashboards hosted on Hugging Face (one for forecasted players and another for the top 85 cricket batters), allowing users to filter data and visualize predictions, with detailed evaluation metrics provided.
 
 ---
 
